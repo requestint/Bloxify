@@ -1,0 +1,17 @@
+title = "Bloxify"
+
+[cloudflare]
+Workers = [ "https://rbxhttpservice-relay.studiowork1020.workers.dev/" ]
+
+[server]
+url = "https://meticulous-happiness-production-d3ed.up.railway.app"
+SECRET_KEY = "b79dce58a883089df756276051007026380188665f145b526cb77b72d9475d2f"
+timeout = 5000
+
+[defaults]
+UserId = 1681441387
+type = "CMD-TEST"
+
+[payload]
+info = "toml config"
+creator = "anyomonus"
